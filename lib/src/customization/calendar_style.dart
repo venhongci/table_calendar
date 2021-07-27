@@ -199,7 +199,7 @@ class CalendarStyle {
       border: const Border.fromBorderSide(
         const BorderSide(color: const Color(0xFF9FA8DA), width: 1.4),
       ),
-      shape: BoxShape.circle,
+      shape: BoxShape.rectangle,
     ),
     this.weekendTextStyle = const TextStyle(color: const Color(0xFF5A5A5A)),
     this.weekendDecoration = const BoxDecoration(shape: BoxShape.rectangle),
