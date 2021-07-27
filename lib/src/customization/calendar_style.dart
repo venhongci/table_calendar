@@ -162,7 +162,7 @@ class CalendarStyle {
     ), //
     this.todayDecoration = const BoxDecoration(
       color: const Color(0xFFACACB2),
-      shape: BoxShape.circle,
+      shape: BoxShape.rectangle,
     ),
     this.selectedTextStyle = const TextStyle(
       color: const Color(0xFFFAFAFA),
@@ -170,7 +170,7 @@ class CalendarStyle {
     ),
     this.selectedDecoration = const BoxDecoration(
       color: const Color(0xFF991E2F),
-      shape: BoxShape.circle,
+      shape: BoxShape.rectangle,
     ),
     this.rangeStartTextStyle = const TextStyle(
       color: const Color(0xFFFAFAFA),
@@ -178,7 +178,7 @@ class CalendarStyle {
     ),
     this.rangeStartDecoration = const BoxDecoration(
       color: const Color(0xFF6699FF),
-      shape: BoxShape.circle,
+      shape: BoxShape.rectangle,
     ),
     this.rangeEndTextStyle = const TextStyle(
       color: const Color(0xFFFAFAFA),
@@ -186,14 +186,14 @@ class CalendarStyle {
     ),
     this.rangeEndDecoration = const BoxDecoration(
       color: const Color(0xFF6699FF),
-      shape: BoxShape.circle,
+      shape: BoxShape.rectangle,
     ),
     this.withinRangeTextStyle = const TextStyle(),
-    this.withinRangeDecoration = const BoxDecoration(shape: BoxShape.circle),
+    this.withinRangeDecoration = const BoxDecoration(shape: BoxShape.rectangle),
     this.outsideTextStyle = const TextStyle(color: const Color(0xFFAEAEAE)),
-    this.outsideDecoration = const BoxDecoration(shape: BoxShape.circle),
+    this.outsideDecoration = const BoxDecoration(shape: BoxShape.rectangle),
     this.disabledTextStyle = const TextStyle(color: const Color(0xFFBFBFBF)),
-    this.disabledDecoration = const BoxDecoration(shape: BoxShape.circle),
+    this.disabledDecoration = const BoxDecoration(shape: BoxShape.rectangle),
     this.holidayTextStyle = const TextStyle(color: const Color(0xFF5C6BC0)),
     this.holidayDecoration = const BoxDecoration(
       border: const Border.fromBorderSide(
@@ -202,9 +202,9 @@ class CalendarStyle {
       shape: BoxShape.circle,
     ),
     this.weekendTextStyle = const TextStyle(color: const Color(0xFF5A5A5A)),
-    this.weekendDecoration = const BoxDecoration(shape: BoxShape.circle),
+    this.weekendDecoration = const BoxDecoration(shape: BoxShape.rectangle),
     this.defaultTextStyle = const TextStyle(),
-    this.defaultDecoration = const BoxDecoration(shape: BoxShape.circle),
+    this.defaultDecoration = const BoxDecoration(shape: BoxShape.rectangle),
     this.rowDecoration = const BoxDecoration(),
   });
 }
